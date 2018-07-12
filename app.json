@@ -1,0 +1,24 @@
+{
+  "name": "GRW_ME",
+  "description": "Infinite listing with Sort/Filter/IIS capabilities",
+  "scripts": {
+  },
+  "env": {
+    "NODE_ENV": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
