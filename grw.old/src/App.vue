@@ -1,31 +1,26 @@
 <template>
   <div id="app">
     <img src="./assets/grw-logo.png">
-    <div class="scroller-in-page-area">
-      
-     
-        </div>
-  </div>
-  </template>
+  <infinite-loading @infinite="infiniteHandler"></infinite-loading>
+    </div>
+ </template>
 
 <script>
 
 
-import InfiniteLoading from 'vue-infinite-loading';
-
-
-
-
+import infiniteLoading from './components/infiniteLoading.vue'
+//import {ClientTable} from 'vue-tables-2';
 
 export default {
+  name: 'app',
   components: {
-    InfiniteLoading,
-  },
-};
+    infiniteLoading
+  }
+}
+
 </script>
 
 <style>
-.scroller-in-page-area {overflow:'hidden'}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

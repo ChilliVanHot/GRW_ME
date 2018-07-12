@@ -10,9 +10,10 @@
   "dependencies": {
     "@vue/cli-service-global": "^3.0.0-rc.3",
     "axios": "^0.18.0",
-    "beautify-scrollbar": "^1.0.8",
+    "bootstrap": "^4.1.1",
     "cors": "^2.8.4",
-    "v2-lazy-list": "^2.2.5",
+    "daterangepicker": "^3.0.3",
+    "moment": "^2.22.2",
     "vue": "^2.5.16",
     "vue-components": "^1.0.4",
     "vue-resource": "^1.5.1",
@@ -25,7 +26,8 @@
     "vue-infinite-loading": "^2.3.1",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.15.1",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
   },
   "eslintConfig": {
     "root": true,
